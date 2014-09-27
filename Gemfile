@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.5'
+gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -42,5 +42,8 @@ gem 'devise'
 gem 'devise-token_authenticatable'
 
 # file: Gemfile
-gem 'activeadmin'
-# gem 'meta_search', '>= 1.1.0.pre' # activeadmin needs this if Rails >= 3.1
+gem 'activeadmin', git: 'http://github.com/gregbell/active_admin'
+gem 'polyamorous', git: 'http://github.com/activerecord-hackery/polyamorous'
+gem "formtastic", git: "http://github.com/justinfrench/formtastic"
+gem "ransack", git: "http://github.com/activerecord-hackery/ransack"
+# gem "devise", git: "http://github.com/plataformatec/devise"
