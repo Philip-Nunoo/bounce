@@ -42,7 +42,7 @@ gem 'devise-token_authenticatable'
 # file: Gemfile
 gem 'activeadmin', git: 'http://github.com/gregbell/active_admin'
 gem 'polyamorous', git: 'http://github.com/activerecord-hackery/polyamorous'
-gem "formtastic", git: "http://github.com/justinfrench/formtastic"
+gem "formtastic"#, git: "http://github.com/justinfrench/formtastic"
 gem "ransack", git: "http://github.com/activerecord-hackery/ransack"
 # gem "devise", git: "http://github.com/plataformatec/devise"
 
